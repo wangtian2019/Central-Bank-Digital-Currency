@@ -48,6 +48,7 @@ Firstly, mintettes collect transactions from users and write them into blocks. T
 ![data overview](https://github.com/wangtian2019/Central-Bank-Digital-Currency/blob/master/%E5%9B%BE3.png)
 The figure above shows the proposed protocol for validating transactions: each mintette mi is an owner of address i. In (1), a user learns the owners of each of the addresses in its transaction. In (2), the user collects approval from a majority of the owners of the input addresses. In (3), the user sends the transaction and these approvals to the owners of the transaction identifier. In (4), some subset of these mintettes add the transaction to their blocks.
 
+### Achieving consensus
 
 
 
