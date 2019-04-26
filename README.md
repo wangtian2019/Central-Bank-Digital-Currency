@@ -3,6 +3,9 @@ ID: Tina Wang 1701213108
 
 ## Introduction
 Central bank digital currency (CBDC) is the digital form of fiat money which is a currency established as money by government regulation or law. CDBC combines the characteristics of central bank currency and digital currency-centralization and distributed book-keeping. CBDC is only a hypothetical model till now.
+
+![data overview](https://github.com/wangtian2019/Central-Bank-Digital-Currency.git/图1.png)
+
 CBDC was born because digital currency has some inherent defects, but it also has advantages that traditional central bank currency does not have.
 
 ## Birth defects of CBDC
