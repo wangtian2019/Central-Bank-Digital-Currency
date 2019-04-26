@@ -40,6 +40,7 @@ In its simplest form, the RSCoin system assumes two structural entities:
 2) a distributed set of mintettes that are responsible for the maintenance of the transaction ledger. 
 
 ### Running mechanism of RSCoin
+![data overview](https://github.com/wangtian2019/Central-Bank-Digital-Currency/blob/master/%E5%9B%BE2.png)
 The figure above shows the overall structure of RSCoin. 
 Firstly, mintettes collect transactions from users and write them into blocks. These mintettes differ from traditional cryptocurrency miners: rather than performing some computationally difficult task, each mintette is simply authorized by the central bank to collect transactions. In RSCoin, this authorization is accomplished by a PKI-type functionality, meaning the central bank signs the public key of Each mintettes maintains a set of lower-level blocks, and communicates with other mintettes. At some point, the mintettes send these blocks to the central bank, which produces a higher-level block. It is these higher-level blocks that form a chain and that are visible to external users.
 
