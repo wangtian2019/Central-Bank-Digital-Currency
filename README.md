@@ -29,7 +29,7 @@ Second, statutory digital currency makes financial regulation more precise. At p
 
 Businesses and individuals will also benefit. Firstly, legal digital currency can reduce the circulation cost. If commercial banks no longer need to transport large amounts of money but can transfer money by electronic means, the loss cost and maintenance cost of the whole process will be greatly reduced. Second, statutory digital currency can improve the efficiency of fund settlement. Statutory digital currency uses block chain technology to construct point-to-point payment mode. The realization of payment and settlement process no longer requires third-party clearing institutions or payment centers. The payment and settlement activities of enterprises and individuals are more convenient, settlement costs are greatly reduced, and the efficiency of fund settlement and management is expected to be significantly improved.
 
-##Case Study: CSCoin
+## Case Study: CSCoin
 RSCoin is the Bank of England's central bank digital currency program.
 RSCoin introduces a degree of centralization into the two typically decentralized components of a blockchain-based ledger: the generation of the monetary supply and the constitution of the transaction ledger. 
 In its simplest form, the RSCoin system assumes two structural entities:
