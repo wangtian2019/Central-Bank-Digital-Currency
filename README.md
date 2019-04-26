@@ -3,6 +3,7 @@ ID: Tina Wang 1701213108
 
 ## Introduction
 Central bank digital currency (CBDC) is the digital form of fiat money which is a currency established as money by government regulation or law. CDBC combines the characteristics of central bank currency and digital currency-centralization and distributed book-keeping. CBDC is only a hypothetical model till now.
+CBDC was born because digital currency has some inherent defects, but it also has advantages that traditional central bank currency does not have.
 
 ## Birth defects of CBDC
 Private digital currency develops rapidly in the post-financial crisis era under the background of global currency competitiveness overrun, but the inherent defects of private digital currency make it unable to become a real currency.
@@ -27,3 +28,17 @@ Firstly, the statutory digital currency makes the formulation and implementation
 Second, statutory digital currency makes financial regulation more precise. At present, the small transactions of the public are mainly carried out through the third-party payment instruments. The third-party payment institutions have accumulated a considerable amount of large payment data, and the central bank has lost part of the control of currency circulation data. The legal digital currency can replace the electronic currency paid by the third party in function, and it has the support of national credit, which will return the control of the big data of currency circulation to the central bank. The big data of money circulation can provide the central bank with complete and true transaction records at different frequencies and levels, make the monitoring and management of the central bank's capital flow more effective, and provide the basis for the formulation and implementation of macro-prudential policies and micro-financial supervision measures.
 
 Businesses and individuals will also benefit. Firstly, legal digital currency can reduce the circulation cost. If commercial banks no longer need to transport large amounts of money but can transfer money by electronic means, the loss cost and maintenance cost of the whole process will be greatly reduced. Second, statutory digital currency can improve the efficiency of fund settlement. Statutory digital currency uses block chain technology to construct point-to-point payment mode. The realization of payment and settlement process no longer requires third-party clearing institutions or payment centers. The payment and settlement activities of enterprises and individuals are more convenient, settlement costs are greatly reduced, and the efficiency of fund settlement and management is expected to be significantly improved.
+
+##Case Study: CSCoin
+RSCoin is the Bank of England's central bank digital currency program.
+RSCoin introduces a degree of centralization into the two typically decentralized components of a blockchain-based ledger: the generation of the monetary supply and the constitution of the transaction ledger. 
+In its simplest form, the RSCoin system assumes two structural entities:
+1) the central bank, a centralized entity that ultimately has complete control over the generation of the monetary supply
+2) a distributed set of mintettes that are responsible for the maintenance of the transaction ledger. 
+
+### Running mechanism of RSCoin
+The figure above shows the overall structure of RSCoin. 
+Firstly, mintettes collect transactions from users and write them into blocks. These mintettes differ from traditional cryptocurrency miners: rather than performing some computationally difficult task, each mintette is simply authorized by the central bank to collect transactions. In RSCoin, this authorization is accomplished by a PKI-type functionality, meaning the central bank signs the public key of Each mintettes maintains a set of lower-level blocks, and communicates with other mintettes. At some point, the mintettes send these blocks to the central bank, which produces a higher-level block. It is these higher-level blocks that form a chain and that are visible to external users.
+
+
+
