@@ -102,5 +102,15 @@ In particular, this scales infinitely: as more mintettes are added to the system
 
 ### Comparation
 
+| Characteristic | RScoin | Bitcoin |
+| :---: | :---: | --- |
+| Money supply | Regulated by the central bank | Fixed |
+| Transaction confirmation rate | >2000 transacations/s(Scalable) | 7 transacations/s
+ |
+| Traceability | Transaction records are traceable | Anonymity fosters illegal transactions | 
+| Credit endorsement | Country credit endorsement | NO | 
+
+
+
 
 
