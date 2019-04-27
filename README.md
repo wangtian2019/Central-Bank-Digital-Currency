@@ -71,4 +71,13 @@ An example transaction algorithm：
 
 *Mintettes'inaction will be exposed and will not receive transaction costs.
 
-### Comparation 
+### Performance
+Denote by T the set of transactions that are generated per second; by Q the number of mintettes that own each address; and by M the number of total mintettes.
+For a transaction with m inputs and n outputs, a user sends and receives at most mQ messages in the first phase of the 2PC protocol and sends and receives at most Q messages in the second phase. For the user, each transaction thus requires at most 2(m + 1)Q messages.
+In terms of the communication complexity per mintette, assume that each mintette receives a proportional share of the total transactions, which is ensured as the volume of transactions grow, by the bank allocating shards of equal sizes to all mintettes. Then the work per mintette is:
+![data overview](https://github.com/wangtian2019/Central-Bank-Digital-Currency/blob/master/%E5%9B%BE6.png)
+In particular, this scales infinitely: as more mintettes are added to the system, the work per mintette decreases and eventually goes to zero.
+
+
+
+
