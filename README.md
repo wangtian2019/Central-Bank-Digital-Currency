@@ -62,22 +62,25 @@ An example transaction algorithm：
 
 ### Lower-level blocks：
 
-Format: b = (h,txset,σ,mset)，h = H(h(i−1) bank ||h(m) j−1||otherblocksk||txset)
+**Format**: b = (h,txset,σ,mset)，h = H(h(i−1) bank ||h(m) j−1||otherblocksk||txset)
 
-h (i−1) bank refers to the hash value submitted by the previous period to the bank. 
-h (m) j−1 refers to the hash value of the block of the previous m group (a period may contain many epoch).
-otherblocksk refers to the hash value interacted with the tetepmin, and the hash value of txset refers to all sets of transactions of an epoch.In combination, σ is the signature of mintette, and mset is the hash set of other mintettes that interacts with this mintette.
+**h (i−1)** bank refers to the hash value submitted by the previous period to the bank. 
+**h (m) j−1** refers to the hash value of the block of the previous m group (a period may contain many epoch).
+**otherblocksk** refers to the hash value interacted with the tetepmin, and the hash value of **txset** refers to all sets of transactions of an epoch.In combination, **σ** is the signature of mintette, and **mset** is the hash set of other mintettes that interacts with this mintette.
 
-**Note: The txset submitted to central bank by mintettes of the same shard should be the same
+**Note**: The txset submitted to central bank by mintettes of the same shard should be the same
 
 ### Higher-level  blocks：
 
-Format: Bbanki= (h,txset,σ,DPKi+1)
-**Note: DPKi+1 has some effect. For example, if a mintettes fails in a transaction, it will not get the keypair of the next period. It may not be passed or found when submitting a block
+**Format**: Bbanki= (h,txset,σ,DPKi+1)
 
-1) Money production: tx（NULL→ addrbank）. Use bitcoin-like mining to generate coins- use a transaction without the original address to send a certain amount of money to the address of the bank in a transaction without the original address.
-2) Cost distribution: tx(addrbank→ addrm).  The key point is not how to allocate the cost to mintette, but to whom. So the allocation strategy is that central bank has a counter for checking the input mintettes as a basis for allocation costs. Considering that the output must be used as input in order to be rewarded, this strategy not only encourages mintette to do the first phase work, but also indirectly motivates them to do the second phase. 
-3) About log: Logs are sent to central bank, and whether they are published is a question. If the central bank is not honest enough, the user can try to obtain the distributed log by broadcasting, so that the user can verify the behavior of mintettes, and at the same time can repeat operations to compare the books, which can prevent the bank from negligent behavior.
+**Note**: DPKi+1 has some effect. For example, if a mintettes fails in a transaction, it will not get the keypair of the next period. It may not be passed or found when submitting a block
+
+**1) Money production**: tx（NULL→ addrbank）. Use bitcoin-like mining to generate coins- use a transaction without the original address to send a certain amount of money to the address of the bank in a transaction without the original address.
+
+**2) Cost distribution**: tx(addrbank→ addrm).  The key point is not how to allocate the cost to mintette, but to whom. So the allocation strategy is that central bank has a counter for checking the input mintettes as a basis for allocation costs. Considering that the output must be used as input in order to be rewarded, this strategy not only encourages mintette to do the first phase work, but also indirectly motivates them to do the second phase. 
+
+**3) About log**: Logs are sent to central bank, and whether they are published is a question. If the central bank is not honest enough, the user can try to obtain the distributed log by broadcasting, so that the user can verify the behavior of mintettes, and at the same time can repeat operations to compare the books, which can prevent the bank from negligent behavior.
 
 ### Security features
 *Most mintettes are honest.
