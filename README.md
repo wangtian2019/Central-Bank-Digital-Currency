@@ -110,6 +110,9 @@ In particular, this scales infinitely: as more mintettes are added to the system
 | Traceability | Transaction records are traceable | Anonymity fosters illegal transactions | 
 | Credit endorsement | Country credit endorsement | NO | 
 
+## Reference
+[1] Danezis G, Meiklejohn S. Centrally Banked Cryptocurrencies[J]. 2015.
+
 
 
 
