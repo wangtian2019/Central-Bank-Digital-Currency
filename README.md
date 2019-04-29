@@ -4,7 +4,6 @@ ID: Tina Wang 1701213108
 ## Introduction
 Central bank digital currency (CBDC) is the digital form of fiat money which is a currency established as money by government regulation or law. CDBC combines the characteristics of central bank currency and digital currency-centralization and distributed ledger. CBDC is only a hypothetical model till now.
 
-
 CBDC was born because digital currency has some inherent defects, but it also has advantages that traditional central bank currency does not have.
 
 ## Birth defects of CBDC
@@ -32,8 +31,11 @@ The issuance of statutory digital currency by the central bank is based on the r
 At present, the small transactions of the public are mainly carried out through the third-party payment instruments. The third-party payment institutions have accumulated a considerable amount of large payment data, and the central bank has lost part of the control of currency circulation data. The legal digital currency can replace the electronic currency paid by the third party in function, and it has the support of national credit, which will return the control of the big data of currency circulation to the central bank. The big data of money circulation can provide the central bank with complete and true transaction records at different frequencies and levels, make the monitoring and management of the central bank's capital flow more effective, and provide the basis for the formulation and implementation of macro-prudential policies and micro-financial supervision measures.
 
 ### 3.Reduce the circulation cost and improve the efficiency of fund settlement
-Businesses and individuals will also benefit. Firstly, legal digital currency can reduce the circulation cost. If commercial banks no longer need to transport large amounts of money but can transfer money by electronic means, the loss cost and maintenance cost of the whole process will be greatly reduced. 
+Businesses and individuals will also benefit. 
+Firstly, legal digital currency can reduce the circulation cost. If commercial banks no longer need to transport large amounts of money but can transfer money by electronic means, the loss cost and maintenance cost of the whole process will be greatly reduced. 
 Second, statutory digital currency can improve the efficiency of fund settlement. Statutory digital currency uses block chain technology to construct point-to-point payment mode. The realization of payment and settlement process no longer requires third-party clearing institutions or payment centers. The payment and settlement activities of enterprises and individuals are more convenient, settlement costs are greatly reduced, and the efficiency of fund settlement and management is expected to be significantly improved.
+Thirdly，it solves the trust problem in transaction. Each participant in this network can get a true and unique copy of information. Any changes in the books will be reflected in all copies. It increases the risk of tampering with information and fraud because it improves the security of the system and Solve the trust problem in transaction.
+
 
 ## Case Study: CSCoin
 RSCoin is the Bank of England's central bank digital currency program.
@@ -99,6 +101,13 @@ In terms of the communication complexity per mintette, assume that each mintette
 ![data overview](https://github.com/wangtian2019/Central-Bank-Digital-Currency/blob/master/%E5%9B%BE7.png)
 
 In particular, this scales infinitely: as more mintettes are added to the system, the work per mintette decreases and eventually goes to zero.
+
+### 	Consensus protocols
+Consensus protocols is used to achieve availability and consistency, which is the key technology of distributed ledger system. Its core indicators include the robustness of consensus protocol, efficiency and security. Representational consensus mechanisms include PoW, PoS, PBFT, RSCoin, hybrid consensus, etc.
+
+PoW (Proof of Work) is a mature consensus technology in block chain. Its characteristic is that it requires a certain amount of work to obtain the right to create blocks. At present, the mainstream digital currency uses PoW. However, PoW has been criticized for its waste of resources and selfish mining, and its performance efficiency has great limitations. Thus application in the trade finance should explore other more innovative mechanism. 
+RSCoin employs an innovative consensua protocols. Its characteristics are hierarchical structure, separation of transaction verification and accounting, centralization of accounting, strong security assumptions, but relatively efficient.
+
 
 ### Comparation
 
