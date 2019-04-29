@@ -120,7 +120,10 @@ RSCoin employs an innovative consensua protocols. Its characteristics are hierar
 
 ## Reference
 [1] Danezis G, Meiklejohn S. Centrally Banked Cryptocurrencies[J]. 2015.
-
+[2] Noether Shen. Ring SIgnature Confidential Transactions for Monero[Z]. IACR Cryptology EPrint Archive，2015：1098
+[3] Barrdear J, Kumhof M. The Macroeconomics of Central Bank Issued Digital Currencies[J]. Social Science Electronic Publishing, 2016.
+[4] Fung B S C, Halaburda H. Central Bank Digital Currencies: A Framework for Assessing Why and How[J]. Discussion Papers, 2017.
+[5] Yao Q. A systematic framework to understand central bank digital currency[J]. Science China, 2018, 61(3):033101.
 
 
 
